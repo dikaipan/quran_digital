@@ -11,23 +11,27 @@ class Home extends StatefulWidget {
   _HomeState createState() => _HomeState();
 }
 
+//*Membuat variable  warna yang akan digunakan Bottom Navigation Bar
 final Color bgcolor = Color(0xffF3F3F3);
 final Color primer = Color(0xffe70f0B);
 
 class _HomeState extends State<Home> {
+//*variable untuk inisi
   int _currenTabIndex = 0;
 
   @override
   Widget build(BuildContext context) {
+    //*Controller Bottom Navigation Bar
     final _kTabPages = <Widget>[
       ListAlquran(),
       ListAsmaul(),
       ListDoa(),
       ListCeramah()
     ];
-
+    //*_kBotomNavigasiItem  mengembalikan Widget List dari bar item
     final _kBotomNavigasiItem = <BottomNavigationBarItem>[
       BottomNavigationBarItem(
+          //*Memberikan Event ubah icon ketika user menekan
           activeIcon: Padding(
             padding: const EdgeInsets.only(top: 8.0),
             child: Icon(
@@ -85,25 +89,32 @@ class _HomeState extends State<Home> {
         ),
       ),
     ];
-
+    //* class yang berguna menampung item bottom navigation bar
+    //*dimana widget ini yang digunakan untuk membuat bottom navigation bar
     final bottomNavBar = BottomNavigationBar(
       elevation: 0,
       backgroundColor: bgcolor,
       selectedItemColor: primer,
       unselectedItemColor: Colors.grey.shade700,
+      //*menginisialisai items dengan value _kBottomNavigationItem
       items: _kBotomNavigasiItem,
+      //*current indeks adalah value index yang manakah yang sedang digunakan saat ini
       currentIndex: _currenTabIndex,
       type: BottomNavigationBarType.fixed,
+      //*Memberi Event on tap di tabbar bar item yang dibuat
       onTap: (int index) {
+        //*saya meng set sebuah state dimana nantinya funsi ini yang akan memberitahu Bottom Navigation Item mana yang aktif
         setState(() {
           _currenTabIndex = index;
         });
       },
     );
-
+    //*mereturn widget Scafold
     return Scaffold(
       backgroundColor: bgcolor,
+      //*kontroller dimana kontroller itu yang mereturn tampilan di body
       body: _kTabPages[_currenTabIndex],
+      //*menginisialisasi bottom navigation bar  dengan bottomNavBar
       bottomNavigationBar: bottomNavBar,
     );
   }
