@@ -1,4 +1,6 @@
+//*package material adalah package yang menghandel tampilan aplikasi iOS
 import 'package:flutter/cupertino.dart';
+//*package material adalah package yang menghandel tampilan aplikasi android
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:quran_digital/ui/listpage/listalquran.dart';
