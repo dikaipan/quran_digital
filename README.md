@@ -1,6 +1,6 @@
 # quran_digital
 
-A new Flutter project.
+Flutter project.
 
 ## Getting Started
 
@@ -26,9 +26,15 @@ requires :
 
 ### Resource
 
-## Special Thanks To :
-- [Bang Rio Astamal for file Quran Json yang dibuat](https://github.com/rioastamal/quran-json)
-- [Bang Mazipan for file Doa Json yang dibuat](https://github.com/rioastamal/quran-json)
+ **Special Thanks To:**
+- Bang [Rio Astamal](https://github.com/rioastamal)
+- Bang [Mazipan](https://github.com/rioastamal)
 
+ **Atas file Al-Quran JSON nya:**
 - Surah [alquran](https://github.com/rioastamal/quran-json)
 - Du'a [doa](https://github.com/mazipan/quran-offline)
+
+**My Twitter Account**
+[@Dikaipan](https://twitter.com/Dikaipan)
+
+### Made With 💙 In Jogja And Hosted With ❤️ By Github
