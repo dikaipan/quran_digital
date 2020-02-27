@@ -126,7 +126,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		rFjXmsjjEZZivY54JVnzv1VdC7Q=
+		dMcyx20LBzmnXdhxu6NuaOBVnW4=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -134,11 +134,11 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		3jt1ZAgmYzcKJrqTrNRoGw2Yoj4=
+		q/M8kDHJD0AYYfMKjs/fyuTI7cg=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		MfLuDBJYnYDzaS1WtZ1J7P7YDzs=
+		vnhnw+7pT5rVso4HmmCnoiSGtI4=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -166,7 +166,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		DWmucImDEF1Ei69fjPOTwyrtwOw=
+		JVCM7w10Fo4XSNQS0E0BB4N+G7I=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -640,6 +640,10 @@
 		<data>
 		MxOEYd7WuXqmIPQFDgRouDevcxY=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/surah/alquran.json</key>
+		<data>
+		bnRpDdMa+w5DUu1tQwkxBzTIFMk=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/surah/asmaul-husna.json</key>
 		<data>
 		8Ar9EfONq+zK/QQyhcRXLxzHxo0=
@@ -690,7 +694,7 @@
 		</data>
 		<key>Frameworks/flutter_webview_plugin.framework/flutter_webview_plugin</key>
 		<data>
-		+QY+GScg03/nifYatr9a/OTMpNA=
+		Y/EFXOWnfuTjTkbGWc+8yofUSb0=
 		</data>
 		<key>Frameworks/fluttertoast.framework/Info.plist</key>
 		<data>
@@ -702,7 +706,7 @@
 		</data>
 		<key>Frameworks/fluttertoast.framework/fluttertoast</key>
 		<data>
-		pNqgHIgkXyk28nirPupJXjEphkI=
+		ZZymeOLCY+yxpLIsFuC9LtfnaXI=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
@@ -1077,11 +1081,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rFjXmsjjEZZivY54JVnzv1VdC7Q=
+			dMcyx20LBzmnXdhxu6NuaOBVnW4=
 			</data>
 			<key>hash2</key>
 			<data>
-			GSHEh6JrFk7AOCmu9tD0MjkxEzme9qmdPIKHAGRSbmM=
+			r8DBom7JPpKsAB5lP6Ow2h9bl7III5CwoWN1acMq+ak=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -1099,22 +1103,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3jt1ZAgmYzcKJrqTrNRoGw2Yoj4=
+			q/M8kDHJD0AYYfMKjs/fyuTI7cg=
 			</data>
 			<key>hash2</key>
 			<data>
-			1NEjtJE6OfgwCGTyG5QzXXxCs1Y1S4texmvq2tDQD8c=
+			IdfeYKNyIbiF0AYjaiMOt7ExUCrTj6dr6D7KocN8tm0=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MfLuDBJYnYDzaS1WtZ1J7P7YDzs=
+			vnhnw+7pT5rVso4HmmCnoiSGtI4=
 			</data>
 			<key>hash2</key>
 			<data>
-			z6CPdKfj0nYFI3OM6GzjoUumyeRo0hbYABpOPYAem6g=
+			RYeObtEV5i1sBaf04W2E8YjOUrFDs1GjOsl5oW3HpOo=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -1187,11 +1191,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DWmucImDEF1Ei69fjPOTwyrtwOw=
+			JVCM7w10Fo4XSNQS0E0BB4N+G7I=
 			</data>
 			<key>hash2</key>
 			<data>
-			BtgxcwFRiAUbaM+vV372T3k/8gM9BwOmCbEXsS2sRlo=
+			z3DYUSqzVFARbIfMsHKvi4427bZbXChzF8R2eRNFq7M=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -2492,6 +2496,17 @@
 			R/aiOVQjaA3j/oiF2CqJR38tJ1/7wUBuKRsvuodQ6G4=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/surah/alquran.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bnRpDdMa+w5DUu1tQwkxBzTIFMk=
+			</data>
+			<key>hash2</key>
+			<data>
+			ECMW24Jp0a3h3oA6fmmmGhUy2ilrl4CB51EuavVkzCw=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/surah/asmaul-husna.json</key>
 		<dict>
 			<key>hash</key>
@@ -2628,11 +2643,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+QY+GScg03/nifYatr9a/OTMpNA=
+			Y/EFXOWnfuTjTkbGWc+8yofUSb0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Dqu5XPwIo8FjtwhFhjBpJGoLMLwJfJh5X468Kv/xwCA=
+			14VsaWeqfY76eDWYmiR2IG9rlj0Jgl2tWSqdaxM/AJ4=
 			</data>
 		</dict>
 		<key>Frameworks/fluttertoast.framework/Info.plist</key>
@@ -2661,11 +2676,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pNqgHIgkXyk28nirPupJXjEphkI=
+			ZZymeOLCY+yxpLIsFuC9LtfnaXI=
 			</data>
 			<key>hash2</key>
 			<data>
-			E70Au99XmgtzHS4GfVzs6k5f2Y1f43586j9P3Ar0kFE=
+			ijk/kIJ0rKvHCRhnzV0aBkcMTdRBAPCPete/EScjY74=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>

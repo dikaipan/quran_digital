@@ -9,52 +9,64 @@ class CardSurah extends StatelessWidget {
       this.translate,
       this.countAyat,
       this.onTap});
-  final int id;
+  final String id;
   final String name;
   final String arab;
   final String translate;
-  final int countAyat;
+  final String countAyat;
   final VoidCallback onTap;
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 8.0),
+      padding: const EdgeInsets.symmetric(horizontal: 10.0),
       child: Card(
-        child: Container(
-          child: Column(
-            children: <Widget>[
-              ListTile(
-                onTap: onTap,
-                title: Padding(
-                  padding: const EdgeInsets.only(bottom: 8.0),
-                  child: Text(name),
+        elevation: 10,
+        child: InkWell(
+          splashColor: Colors.red,
+          onTap: () {},
+          child: Container(
+            margin: EdgeInsets.fromLTRB(10, 0, 10, 10),
+            child: Column(
+              children: <Widget>[
+                ListTile(
+                  contentPadding: EdgeInsets.all(10),
+                  onTap: onTap,
+                  title: Center(child: Text(name)),
+                  subtitle: Center(child: Text(translate)),
                 ),
-                subtitle: Text(translate),
-                trailing: Icon(Icons.keyboard_arrow_right),
-              ),
-              Padding(
-                padding: const EdgeInsets.all(12.0),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: <Widget>[
-                    Column(
-                      children: <Widget>[
-                        Text("Surat Ke"),
-                        Text("$id"),
-                        Text("Ayat"),
-                        Text("$countAyat"),
-                      ],
-                    ),
-                    Column(
-                      children: <Widget>[
-                        Text("Arabic"),
-                        Text(arab),
-                      ],
-                    )
-                  ],
+                Divider(
+                  thickness: 1,
+                  indent: 10,
+                  endIndent: 10,
                 ),
-              ),
-            ],
+                Padding(
+                  padding: const EdgeInsets.all(10.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: <Widget>[
+                      Column(
+                        children: <Widget>[
+                          Text("Surat Ke"),
+                          Text("$id"),
+                        ],
+                      ),
+                      Column(
+                        children: <Widget>[
+                          Text("Ayat"),
+                          Text("$countAyat"),
+                        ],
+                      ),
+                      Column(
+                        children: <Widget>[
+                          Text("Arabic"),
+                          Text(arab),
+                        ],
+                      )
+                    ],
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
       ),

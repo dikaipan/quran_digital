@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		MfLuDBJYnYDzaS1WtZ1J7P7YDzs=
+		vnhnw+7pT5rVso4HmmCnoiSGtI4=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		DWmucImDEF1Ei69fjPOTwyrtwOw=
+		JVCM7w10Fo4XSNQS0E0BB4N+G7I=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -512,6 +512,10 @@
 		<data>
 		MxOEYd7WuXqmIPQFDgRouDevcxY=
 		</data>
+		<key>flutter_assets/surah/alquran.json</key>
+		<data>
+		bnRpDdMa+w5DUu1tQwkxBzTIFMk=
+		</data>
 		<key>flutter_assets/surah/asmaul-husna.json</key>
 		<data>
 		8Ar9EfONq+zK/QQyhcRXLxzHxo0=
@@ -543,11 +547,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MfLuDBJYnYDzaS1WtZ1J7P7YDzs=
+			vnhnw+7pT5rVso4HmmCnoiSGtI4=
 			</data>
 			<key>hash2</key>
 			<data>
-			z6CPdKfj0nYFI3OM6GzjoUumyeRo0hbYABpOPYAem6g=
+			RYeObtEV5i1sBaf04W2E8YjOUrFDs1GjOsl5oW3HpOo=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -620,11 +624,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DWmucImDEF1Ei69fjPOTwyrtwOw=
+			JVCM7w10Fo4XSNQS0E0BB4N+G7I=
 			</data>
 			<key>hash2</key>
 			<data>
-			BtgxcwFRiAUbaM+vV372T3k/8gM9BwOmCbEXsS2sRlo=
+			z3DYUSqzVFARbIfMsHKvi4427bZbXChzF8R2eRNFq7M=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -1923,6 +1927,17 @@
 			<key>hash2</key>
 			<data>
 			R/aiOVQjaA3j/oiF2CqJR38tJ1/7wUBuKRsvuodQ6G4=
+			</data>
+		</dict>
+		<key>flutter_assets/surah/alquran.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bnRpDdMa+w5DUu1tQwkxBzTIFMk=
+			</data>
+			<key>hash2</key>
+			<data>
+			ECMW24Jp0a3h3oA6fmmmGhUy2ilrl4CB51EuavVkzCw=
 			</data>
 		</dict>
 		<key>flutter_assets/surah/asmaul-husna.json</key>

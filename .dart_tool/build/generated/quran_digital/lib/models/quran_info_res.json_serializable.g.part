@@ -1,0 +1,17 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+QuranInfoRes _$QuranInfoResFromJson(Map<String, dynamic> json) {
+  return QuranInfoRes(
+    (json['result'] as List)
+        ?.map((e) =>
+            e == null ? null : QuranInfo.fromJson(e as Map<String, dynamic>))
+        ?.toList(),
+  );
+}
+
+Map<String, dynamic> _$QuranInfoResToJson(QuranInfoRes instance) =>
+    <String, dynamic>{
+      'result': instance.result,
+    };

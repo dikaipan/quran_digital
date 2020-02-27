@@ -21,14 +21,14 @@ dependencies:
     sdk: flutter
   font_awesome_flutter: ^8.5.0
   backdrop: ^0.2.8
-  fluttertoast: ^3.1.3
+
   http: ^0.12.0+4
-  provider: ^3.1.0
+
   pk_skeleton: ^0.0.2
-  flutter_webview_plugin: ^0.3.10+1
+ 
   expandable: ^4.1.2
-  json_serializable: ^3.2.5
-  build_runner: ^1.7.4
+
+
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -54,7 +54,7 @@ flutter:
   #  - images/a_dot_ham.jpeg
   assets:
     - images/
-    - surah/
+    
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
   # For details regarding adding assets from package dependencies, see

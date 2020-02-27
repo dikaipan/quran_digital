@@ -5,32 +5,36 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:quran_digital/ui/listpage/listalquran.dart';
 import 'package:quran_digital/ui/listpage/listasmaul.dart';
-import 'package:quran_digital/ui/listpage/listceramah.dart';
+import 'package:quran_digital/ui/listpage/listabout.dart';
 import 'package:quran_digital/ui/listpage/listdoa.dart';
+import 'package:quran_digital/utils/api_services.dart';
 
 class Home extends StatefulWidget {
   @override
   _HomeState createState() => _HomeState();
 }
 
-//*Membuat variable  warna yang akan digunakan Bottom Navigation Bar
+//Membuat variable  warna yang akan digunakan Bottom Navigation Bar
 final Color bgcolor = Color(0xffF3F3F3);
 final Color primer = Color(0xffe70f0B);
 
 class _HomeState extends State<Home> {
-//*variable untuk inisi
+// variable untuk inisialisasi tabbar yang sedang digunakan
   int _currenTabIndex = 0;
 
   @override
   Widget build(BuildContext context) {
     //*Controller Bottom Navigation Bar
+
     final _kTabPages = <Widget>[
       ListAlquran(),
       ListAsmaul(),
       ListDoa(),
-      ListCeramah()
+      ListAbout()
     ];
+
     //*_kBotomNavigasiItem  mengembalikan Widget List dari bar item
+
     final _kBotomNavigasiItem = <BottomNavigationBarItem>[
       BottomNavigationBarItem(
           //*Memberikan Event ubah icon ketika user menekan
@@ -84,15 +88,17 @@ class _HomeState extends State<Home> {
             size: 8.0,
           ),
         ),
-        icon: Icon(FontAwesomeIcons.youtube),
+        icon: Icon(FontAwesomeIcons.infoCircle),
         title: Padding(
           padding: const EdgeInsets.only(top: 8.0),
-          child: Text("Ceramah"),
+          child: Text("About"),
         ),
       ),
     ];
-    //* class yang berguna menampung item bottom navigation bar
-    //*dimana widget ini yang digunakan untuk membuat bottom navigation bar
+    /* 
+    *class yang berguna menampung item bottom navigation bar
+    *dimana widget ini yang digunakan untuk membuat bottom navigation bar
+    */
     final bottomNavBar = BottomNavigationBar(
       elevation: 0,
       backgroundColor: bgcolor,

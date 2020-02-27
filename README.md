@@ -37,4 +37,4 @@ requires :
 **My Twitter Account**
 [@Dikaipan](https://twitter.com/Dikaipan)
 
-### Made With 💙 In Jogja And Hosted With ❤️ By Github
+### Made With 💙 In Jogja
