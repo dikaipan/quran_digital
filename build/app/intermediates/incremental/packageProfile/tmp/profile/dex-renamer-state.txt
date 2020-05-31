@@ -1,0 +1,4 @@
+#Tue Mar 03 23:47:00 WIB 2020
+base.0=/Users/workflow/develop/quran_digital/build/app/intermediates/dex/profile/mergeDexProfile/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

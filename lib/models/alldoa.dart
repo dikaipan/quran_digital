@@ -1,23 +1,23 @@
 import 'dart:convert';
 
-DoaHarian allDoaFromJson(String str) => DoaHarian.fromJson(json.decode(str));
+AllDoa allDoaFromJson(String str) => AllDoa.fromJson(json.decode(str));
 
-String allDoaToJson(DoaHarian data) => json.encode(data.toJson());
+String allDoaToJson(AllDoa data) => json.encode(data.toJson());
 
-class DoaHarian {
+class AllDoa {
   String title;
   String arabic;
   String latin;
   String translation;
 
-  DoaHarian({
+  AllDoa({
     this.title,
     this.arabic,
     this.latin,
     this.translation,
   });
 
-  factory DoaHarian.fromJson(Map<String, dynamic> json) => DoaHarian(
+  factory AllDoa.fromJson(Map<String, dynamic> json) => AllDoa(
         title: json["title"] == null ? null : json["title"],
         arabic: json["arabic"] == null ? null : json["arabic"],
         latin: json["latin"] == null ? null : json["latin"],

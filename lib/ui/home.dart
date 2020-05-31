@@ -7,7 +7,6 @@ import 'package:quran_digital/ui/listpage/listalquran.dart';
 import 'package:quran_digital/ui/listpage/listasmaul.dart';
 import 'package:quran_digital/ui/listpage/listabout.dart';
 import 'package:quran_digital/ui/listpage/listdoa.dart';
-import 'package:quran_digital/utils/api_services.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -15,8 +14,9 @@ class Home extends StatefulWidget {
 }
 
 //Membuat variable  warna yang akan digunakan Bottom Navigation Bar
-final Color bgcolor = Color(0xffF3F3F3);
-final Color primer = Color(0xffe70f0B);
+final Color bgColor = Color(0xffF3F3F3);
+final Color primerColor = Color(0xFF808080);
+final Color primerAccentColor = Colors.green;
 
 class _HomeState extends State<Home> {
 // variable untuk inisialisasi tabbar yang sedang digunakan
@@ -101,8 +101,8 @@ class _HomeState extends State<Home> {
     */
     final bottomNavBar = BottomNavigationBar(
       elevation: 0,
-      backgroundColor: bgcolor,
-      selectedItemColor: primer,
+      backgroundColor: bgColor,
+      selectedItemColor: Colors.green,
       unselectedItemColor: Colors.grey.shade700,
       //*menginisialisai items dengan value _kBottomNavigationItem
       items: _kBotomNavigasiItem,
@@ -119,7 +119,7 @@ class _HomeState extends State<Home> {
     );
     //*mereturn widget Scafold
     return Scaffold(
-      backgroundColor: bgcolor,
+      backgroundColor: bgColor,
       //*kontroller dimana kontroller itu yang mereturn tampilan di body
       body: _kTabPages[_currenTabIndex],
       //*menginisialisasi bottom navigation bar  dengan bottomNavBar
