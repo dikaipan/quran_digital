@@ -25,16 +25,15 @@ requires :
 
 
 ### Screenshot Apps
-# Home
+### Home
 ![WhatsApp Image 2024-03-27 at 11 04 34 AM](https://github.com/dikaipan/quran_digital/assets/41375578/61a1f09c-b861-46cc-b899-d79fa1389e72) 
-# Asma'ul Husna ![WhatsApp Image 2024-03-27 at 11 04 33 AM (2)](https://github.com/dikaipan/quran_digital/assets/41375578/6e3cd322-77be-412e-9b63-59712fbfda74)
+### Asma'ul Husna ![WhatsApp Image 2024-03-27 at 11 04 33 AM (2)](https://github.com/dikaipan/quran_digital/assets/41375578/6e3cd322-77be-412e-9b63-59712fbfda74)
 
-
-# Doa Harian
+### Doa Harian
 ![WhatsApp Image 2024-03-27 at 11 04 33 AM (1)](https://github.com/dikaipan/quran_digital/assets/41375578/b32d7bb0-0233-4aca-80a1-41a19a322446)
-# About
+### About
 ![WhatsApp Image 2024-03-27 at 11 04 33 AM](https://github.com/dikaipan/quran_digital/assets/41375578/72534149-4d30-4925-b801-4d099c926781)
-# Detail Surah beserta Tafsir
+### Detail Surah beserta Tafsir
 ![WhatsApp Image 2024-03-27 at 11 04 32 AM](https://github.com/dikaipan/quran_digital/assets/41375578/6f5f0883-2caa-4c82-9976-e8b191b77c01)
 
 
