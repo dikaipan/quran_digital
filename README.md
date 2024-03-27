@@ -1,4 +1,4 @@
-# quran_digital
+# Quran Digital
 
 Flutter project.
 
